@@ -23,7 +23,7 @@ profile_image: ./assets/images/profile-image/avatar.jpeg
 
 # Link your resume
 # You can place your resume in assets/resume/{resume file.pdf} or add external link such as pdf saved in google drive 
-resume-url: https://github.com/bluippold/bluippold.github.io/blob/ff653fdd1b59daf33b792e81ad487111a1730e51/assets/resume/BryanLuippoldResume2025A.pdf
+resume-url: assets/BryanLuippoldResume2025A.pdf
 
 
 # Set up external links - this will show up as small icons next to your name.
