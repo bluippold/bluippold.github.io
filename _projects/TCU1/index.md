@@ -5,5 +5,5 @@ description:  This 2-zone TCU features a pneumatically-actuated cylinder coupled
 skills: 
 - skill 1
 - skill 2
-main-image: /_projects/TCU1/TCU1.JPG 
+main-image: /_projects/TCU1/TCU1.jpg
 ---
