@@ -6,4 +6,5 @@ skills:
 - skill 1
 - skill 2
 main-image: /assets/images/TCU1.JPG
+![Debug Image](/assets/images/TCU1.JPG)
 ---
