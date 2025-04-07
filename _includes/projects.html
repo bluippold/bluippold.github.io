@@ -10,9 +10,8 @@
               {% assign folder_path = item.path | split: "/" | slice: 0, 2 | join: "/" %}
               {% assign image_path = "/" | append: folder_path | append: item['main-image'] %}
               <img src="{{ image_path }}" alt="{{ item.title }} image">
-            {% else %}
-              <img src="/assets/images/default.jpg" alt="Default project image">
             {% endif %}
+
 
             <h3 class="project-title">{{ item.title }}</h3>
             <div class="project-skills">
