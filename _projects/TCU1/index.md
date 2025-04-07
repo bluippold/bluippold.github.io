@@ -9,5 +9,5 @@ skills:
 - Strength of Materials
 - Environmental Sealing
 - Tolerance Stackup
-<img src="/TCU1.JPG" alt="TCU Image" width="600" style="display: block; margin: auto;" />
+main-image: /TCU1.JPG
 ---
