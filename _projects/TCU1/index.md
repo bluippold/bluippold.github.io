@@ -1,7 +1,7 @@
 ---
 layout: post
 title: TCU - dual-zone
-description: "This dual-zone TCU features a pneumatically-actuated cylinder coupled to a thermal head that interfaces directly with the customer's semiconductor device. The thermal head integrates thermoelectric coolers (TECs) for active heating and cooling, enabling precise temperature regulation from 0°C to 120°C. An transparent, polycarbonate housing surrounds the thermal head, forming a sealed purge chamber where dry air is introduced to prevent condensation during low-temperature operation. The system is divided into two zones: the inner CPU zone is passively cooled via a recirculating water chiller, while the outer I/O zone is actively controlled by four TECs, regulated by an external PID controller and monitored via RTD sensors for real-time feedback."
+description: "A pneumatically-actuated system designed for thermal contact with LGA packages, featuring a TEC-integrated head for 0°C to 120°C operation. There are two thermal zones: a passively-cooled CPU zone and an actively-controlled I/O zone with PID-regulated TECs and real-time RTD feedback. Includes a purge chamber to prevent condensation in low-temperature tests."
 skills: 
 - Mechanical Design
 - Thermal Design (FEA & CFD)
