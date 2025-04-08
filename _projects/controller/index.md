@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Controller
-description: "Designed sheetmetal enclosures housing the full control system for TCU operation. The assembly integrates power supplies, amplifiers, PID controllers, and custom wire harnesses, with an onboard Arduino microcontroller enabling remote connectivity and software integration for multi-zone thermal control."
+description: "A sheet metal enclosure housing the full control system for TCU operation. The assembly integrates switching power supplies, amplifiers, PID controllers, and custom wire harnesses, with an onboard Arduino microcontroller enabling remote connectivity and software integration for multi-zone thermal control."
 skills: 
 - Sheetmetal
 - Mechanical Design
