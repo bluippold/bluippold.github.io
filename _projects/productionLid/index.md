@@ -10,10 +10,9 @@ skills:
 - Machine Drawings with GD&T
 ---
 
-<img src="/_projects/productionLid/ProductionLid.JPG" alt="Screw-down liquid-cooled lid" width="700" style="display: block; margin: auto;" />
+<img src="/projects/productionLid/ProductionLid.JPG" alt="Dual-zone screw-down lid render" width="700" style="display: block; margin: 1.5rem auto; border: 1px solid #ccc; border-radius: 6px;" />
 
 ### Table of Contents
-- [Overview](#overview)
 - [Design Intent and Use Case](#design-intent-and-use-case)
 - [Mechanical Fastening Approach](#mechanical-fastening-approach)
 - [Thermal Architecture](#thermal-architecture)
