@@ -1,14 +1,13 @@
 ---
 layout: post
 title: Screw-Down Liquid-Cooled Lid
-description: "A sheet metal enclosure housing the full control system for TCU operation. The assembly integrates switching power supplies, amplifiers, PID controllers, and custom wire harnesses, with an onboard Arduino microcontroller enabling remote connectivity and software integration for multi-zone thermal control."
+description: "A mechanically secured thermal lid for semiconductor testing, featuring two independently cooled zones controlled via a recirculating water chiller for precise, isolated temperature management."
 skills: 
-- Sheetmetal
-- Mechanical Design
-- Electronics Thermal Management
-- Wire Harness Design
-- Wiring and Assembly
-- Arduino Software
+- Mechanical Design (Springs, Static FEA)
+- Thermal Design (FEA, CFD)
+- Manufacturing Processes (Welding, Machining)
+- Tolerance Stackup
+- Machine Drawings with GD&T
 ---
 
-<img src="/_projects/productionLid/productionLid.JPG" alt="Screw-down liquid-cooled lid" width="700" style="display: block; margin: auto;" />
+<img src="/_projects/productionLid/ProductionLid.JPG" alt="Screw-down liquid-cooled lid" width="700" style="display: block; margin: auto;" />
