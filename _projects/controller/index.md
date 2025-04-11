@@ -49,7 +49,7 @@ Custom wire harnesses were designed and fabricated to interconnect all internal 
 
 <img src="/_projects/controller/PurpleBoard.jpg" 
      alt="Wire harness and cable routing in TCU Controller" 
-     style="display: block; margin: 1.5rem auto; border: 1px solid #ccc; border-radius: 6px; max-height: 400px; width: auto; transform: rotate(90deg);" />
+     style="display: block; margin: 1.5rem auto; border: 1px solid #ccc; border-radius: 6px; max-height: 500px; width: auto; transform: rotate(90deg);" />
 
 ---
 
