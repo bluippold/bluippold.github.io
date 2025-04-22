@@ -12,7 +12,8 @@ skills:
   - Tolerance Stackup
 ---
 
-<img src="/_projects/TCU2/TCU2.JPG" alt="Five-zone TCU Render" width="700" style="display: block; margin: 1.5rem auto; border: 1px solid #ccc; border-radius: 6px;" />
+<img src="/_projects/TCU2/TCU2.JPG" alt="Five-zone TCU" class="centered-image" />
+
 
 ### Table of Contents
 - [Design Purpose](#design-purpose)
