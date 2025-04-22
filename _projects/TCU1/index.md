@@ -11,7 +11,8 @@ skills:
 - Tolerance Stackup
 ---
 
-<img src="/_projects/TCU1/TCU1.JPG" alt="Dual-zone TCU render" width="700" style="display: block; margin: 1.5rem auto; border: 1px solid #ccc; border-radius: 6px;" />
+<img src="/_projects/TCU1/TCU1.JPG" alt="Dual-zone TCU" class="centered-image" />
+
 
 
 ### Table of Contents
