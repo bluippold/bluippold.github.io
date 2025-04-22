@@ -11,10 +11,7 @@ skills:
   - Prototyping & Assembly
 ---
 
-<img src="/_projects/controller/Controller2.JPG" 
-     alt="Custom TCU Controller Render" 
-     style="display: block; margin-left: auto; margin-right: auto; margin-top: 1.5rem; margin-bottom: 1.5rem; border: 1px solid #ccc; border-radius: 6px; max-width: 90%; height: auto;" />
-
+<img src="/_projects/controller/Controller2.JPG" alt="Controller" class="centered-image" />
 
 ### Table of Contents
 - [Project Purpose](#project-purpose)
