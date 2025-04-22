@@ -10,7 +10,8 @@ skills:
   - Design for Manufacturability (DFM)
 ---
 
-<img src="/_projects/Gantry/Gantry.JPG" alt="Gantry system CAD render" width="700" style="display: block; margin: 1.5rem auto; border: 1px solid #ccc; border-radius: 6px;" />
+<img src="/_projects/Gantry/Gantry.JPG" alt="Gantry System" class="centered-image" />
+
 
 ### Table of Contents
 - [Design Purpose](#design-purpose)
