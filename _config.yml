@@ -61,6 +61,7 @@ skills:
     tools:
     - GD&T ASME Y14
     - ISO fits and tolerances  
+    - Design for Manufacturability (DFM)
   - category: Simulation
     tools:
     - Solidworks Flow Simulation
