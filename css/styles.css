@@ -40,7 +40,8 @@ a:hover {
 
 .project-card, .post-view, .summary, .content {
   background-color: #ffffff;
-  border: 1px solid #d0d7de;
+  margin-bottom: 2rem;
+  border: 1px solid #ddd;
   border-radius: 6px;
   padding: 1.5rem;
   box-shadow: 0 4px 8px rgba(0,0,0,0.03);
@@ -298,8 +299,8 @@ nav .mobile-nav {
 
 .project-grid-section .grid-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
-    gap: 25px;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 2rem;
     width: 100%;
     margin: 0 auto;
     align-items: stretch;
