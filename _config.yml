@@ -15,7 +15,7 @@ title: Bryan Luippold's Portfolio # This is what shows up in the tab of the brow
 name: Bryan Luippold
 headline: Mechanical Design Engineer
 description: >- # dont remove this line. this will ignore all new lines until the next section
-  I'm a mechanical design engineer with a focus on thermal systems and mechanical assemblies, particularly in the semiconductor industry. My work centers on designing and optimizing cooling solutions in pneumatic and mechanical assemblies for high-power electronics packages, using tools such as SolidWorks and ANSYS Icepak to conduct FEA and CFD simulations. I have experience developing both active and passive thermal management systems, including heat sinks, heat pipes, vapor chambers, and thermoelectric coolers. 
+  I'm a mechanical design engineer with a focus on thermal systems and mechanical assemblies, specifically in the semiconductor industry. My work focuses on designing and optimizing thermal cooling solutions in pneumatic and mechanical assemblies for high-power electronics packages, using tools such as SolidWorks and ANSYS Icepak to conduct FEA and CFD simulations. I have experience developing both active and passive thermal management systems, including heat sinks, heat pipes, vapor chambers, and thermoelectric coolers. 
 
 # Place your profile image in /assets/images/profile-image/folder and edit the file name
 profile_image: ./assets/images/profile-image/avatar.jpeg
