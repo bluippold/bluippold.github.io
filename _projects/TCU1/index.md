@@ -80,3 +80,6 @@ The full system was prototyped using CNC-machined components, 3D-printed housing
 - Managing wire routing in a compact, actuated assembly  
 - Designing modular components compatible with various customer hardware
   
+---
+
+📄 [Download PDF Summary](./TCU1-summary.pdf)
