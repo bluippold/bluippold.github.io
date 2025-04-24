@@ -13,9 +13,9 @@ title: Bryan Luippold's Portfolio # This is what shows up in the tab of the brow
 
 # Hero Section
 name: Bryan Luippold
-headline: Mechanical Design Engineer
+headline: Mechanical Design Engineer, EIT
 description: >- # dont remove this line. this will ignore all new lines until the next section
-  I'm a mechanical design engineer with a focus on thermal systems in mechanical assemblies, specifically in the semiconductor industry. My work focuses on designing and optimizing thermal cooling solutions in pneumatic and mechanical assemblies for high-power electronics packages, using tools such as SolidWorks and ANSYS Icepak to conduct FEA and CFD simulations. I have experience developing both active and passive thermal management systems, including heat sinks, heat pipes, vapor chambers, and thermoelectric coolers. 
+  I'm a mechanical design engineer with 5+ years of experience designing advanced thermal and mechanical systems for semiconductor applications. I specialize in thermal modeling (FEA/CFD), DFM, rapid prototyping, and complex system integration. Proven track record of leading cross-functional R&D and driving product innovation from concept through production. 
 
 # Place your profile image in /assets/images/profile-image/folder and edit the file name
 profile_image: ./assets/images/profile-image/avatar.jpeg
