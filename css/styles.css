@@ -329,6 +329,11 @@ nav .mobile-nav {
     overflow: hidden;
 }
 
+.project-grid-section .grid-container .project-link .project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
 .project-card img {
     width: 100%; 
     max-width: 100%; 
