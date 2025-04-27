@@ -335,15 +335,15 @@ nav .mobile-nav {
 }
 
 .project-card img {
-    width: 100%; 
-    max-width: 100%; 
-    aspect-ratio: 3/1;
+    width: 100%;
+    max-width: 100%;
+    aspect-ratio: 16/9; /* Better proportions, less vertical cut */
     object-fit: cover;
     display: block;
+    border: 2px solid black; /* Clean black border */
     border-radius: 6px;
-    margin-bottom: 10px; 
+    margin-bottom: 10px;
 }
-
 
 .project-card .project-title {
     font-size: 1.4em;
