@@ -977,9 +977,8 @@ footer p {
   border-radius: 6px;
   max-width: 90%;
   height: auto;
-  aspect-ratio: 5/3; /* Maintain proper aspect ratio */
-  object-fit: cover;
 }
+
 
 
 
