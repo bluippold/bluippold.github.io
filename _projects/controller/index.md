@@ -48,7 +48,7 @@ The internal layout supports two switching power supplies feeding multiple subsy
 
 Custom wire harnesses were designed and fabricated to interconnect all internal systems. Connectors were selected for reliability and serviceability, and cable routing was optimized to prevent interference, reduce noise, and enable clean separation of power and signal lines. All wires were secured with cable ties to designed mounting slots on machined frames.
 
-<img src="/projects/controller/PurpleBoard.jpg" 
+<img src="/_projects/controller/PurpleBoard.jpg" 
      alt="Wire harness and cable routing in TCU Controller" 
      class="centered-image" 
      style="max-height: 500px; width: auto; transform: rotate(90deg);" />
