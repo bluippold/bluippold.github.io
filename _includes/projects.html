@@ -6,9 +6,10 @@
     {% for item in site.projects %}
       <a href="{{ item.url }}" class="project-link">
         <div class="project-card">
-          {% if item.main-image %}
-            <img src="{{ item.main-image }}" alt="{{ item.title }} image" class="project-image">
+          {% if item.card-image %}
+            <img src="{{ item.card-image }}" alt="{{ item.title }} card image" class="project-image">
           {% endif %}
+
           <h3 class="project-title">{{ item.title }}</h3>
         </div>
       </a>
