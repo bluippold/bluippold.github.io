@@ -2,7 +2,7 @@
 layout: post
 title: Dual-zone TCU
 description: "A pneumatically actuated system designed for thermal contact with LGA packages, featuring a TEC-integrated head for 0°C–120°C operation. Includes a purge chamber to prevent condensation and two thermal zones: a passively cooled CPU zone and an actively controlled I/O zone with PID-regulated TECs and RTD feedback."
-card-image: /_projects/TCU1/TCU1.JPG
+card-image: /_projects/TCU1/TCU1ThermalHead.JPG
 skills: 
 - Mechanical Design
 - Thermal Design (FEA & CFD)
