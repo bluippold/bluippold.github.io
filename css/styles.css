@@ -399,6 +399,30 @@ nav .mobile-nav {
     text-decoration: underline;
 }
 
+/* Skills List inside Project Pages */
+
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    justify-content: start; /* Change to center if you prefer */
+    padding: 0;
+}
+
+.skill {
+    padding: 6px 12px;
+    background-color: var(--light-background-color);
+    color: var(--link-color);
+    border-radius: 12px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    white-space: nowrap;
+    text-align: center;
+    display: inline-block;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
 
 
 /* SECTION 3: SKILLS */
