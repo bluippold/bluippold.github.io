@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Pneumatic Cooling Lid
-description: "A pneumatically actuated cooling lid designed for semiconductor device testing, utilizing a recirculating fluid loop to maintain controlled temperatures across the device's I/O region. This assembly enables consistent thermal contact and automated device engagement during cold-temperature tests."
+title: Pneumatic Cooling Lid Assembly
+description: "A pneumatically actuated cooling lid designed for semiconductor device testing, utilizing a recirculating fluid loop to maintain controlled temperatures across the device's I/O region. This assembly enables consistent thermal contact and automated device engagement during thermal cycling tests."
 card-image: /_projects/CoolerLid/CoolingLid.JPG
 skills:
   - Pneumatic System Design
@@ -14,7 +14,7 @@ skills:
 
 # Pneumatic Cooling Lid Assembly
 
-<img src="/_projects/CoolerLid/CoolingLid.JPG" alt="Pneumatic Cooling Lid" class="centered-image" />
+<img src="/_projects/CoolerLid/CoolingLid.JPG" alt="Pneumatic Cooling Lid Assembly" class="centered-image" />
 
 ---
 
@@ -42,6 +42,7 @@ This project involved the development of a pneumatically actuated cooling lid de
 - [Thermal Architecture](#thermal-architecture)
 - [Pneumatic Actuation Design](#pneumatic-actuation-design)
 - [Fluid Loop Cooling System](#fluid-loop-cooling-system)
+- [Purge Enclosure Design](#purge-enclosure-design)
 - [Mechanical Integration](#mechanical-integration)
 - [Challenges and Lessons Learned](#challenges-and-lessons-learned)
 
@@ -49,50 +50,47 @@ This project involved the development of a pneumatically actuated cooling lid de
 
 ## Project Purpose
 
-The lid assembly was developed to automate device clamping and thermal control for devices undergoing high-power functional validation. Pneumatic actuation simplifies device engagement while ensuring high, repeatable contact forces, and the integrated fluid cooling maintains I/O zone temperatures within specification even during extended operation.
+The cooling lid assembly was developed to automate device clamping and provide reliable thermal control for high-power semiconductor devices. Pneumatic actuation ensures consistent, repeatable contact forces while the recirculating cooling system maintains device temperatures well below ambient during high heat flux conditions.
 
 ---
 
 ## Thermal Architecture
 
-The cooling system targets the outer I/O region of the device under test. Recirculated chilled fluid flows through embedded channels in the lid base, absorbing heat from the device and maintaining surface temperatures well below ambient. The design ensures minimal thermal gradients across the cooling surface.
+The cooling system is specifically targeted to the outer I/O region of the device under test. Chilled fluid from an external recirculating water chiller is directed through internal channels machined into the lid structure, extracting heat from the device's surface and ensuring minimal thermal gradients across the interface.
 
 ---
 
 ## Pneumatic Actuation Design
 
-Two vertical pneumatic cylinders provide downward actuation force, pressing the lid evenly onto the device surface. This ensures uniform thermal contact and eliminates the variability of manual setups. Integrated return springs aid in quick device release.
+The lid utilizes dual vertical pneumatic cylinders to apply a controlled downward force onto the device surface, ensuring uniform thermal contact pressure. Integrated return springs assist in smooth release and retraction, enabling efficient device cycling during testing.
 
 ---
 
 ## Fluid Loop Cooling System
 
-The cooling loop connects to an external recirculating water chiller. Quick-connect fittings enable easy maintenance and setup, while internal passages in the aluminum lid ensure even fluid distribution and maximize heat extraction efficiency.
+Chilled water is circulated through embedded cooling channels within the lid base. Quick-connect fittings provide rapid setup and tear-down, while the internal channel routing is optimized for consistent flow distribution and effective heat removal across the entire cooling footprint.
 
 ---
 
 ## Purge Enclosure Design
 
-To prevent condensation during low-temperature operation, a custom purge box was developed to enclose the cooling lid and device area. 
+To prevent condensation during sub-ambient operation, a custom purge enclosure was developed to seal the cooling lid and device region.
 
-The purge enclosure consists of a rigid frame built from 3D-printed ABS brackets and clear, static-dissipative cast acrylic windows to allow easy visual inspection of the lid during operation, while minimizing static electricity buildup near sensitive electronics.
+The enclosure consists of rigid 3D-printed ABS brackets supporting clear, static-dissipative cast acrylic windows, allowing visual inspection during operation. Dry air is injected into the sealed volume to maintain positive pressure and low humidity, protecting sensitive electronic components from moisture accumulation.
 
-Dry air is introduced into the sealed enclosure through quick-connect fittings, maintaining positive pressure and keeping relative humidity low. The design balances accessibility for device swaps with robust environmental sealing for extended test cycles at sub-ambient temperatures.
-
-<img src="/_projects/CoolerLid/CoolingLidPurge.JPG" alt="Purge Box Surrounding Cooling Lid" class="centered-image" />
+<img src="/_projects/CoolerLid/CoolingLidPurge.JPG" alt="Cooling Lid Purge Box Enclosure" class="centered-image" />
 
 ---
 
 ## Mechanical Integration
 
-The lid frame was designed to interface precisely with custom test boards and device carriers. Locating features and robust mounting allow for rapid device swaps while maintaining alignment and reliable sealing under pressure.
+The cooling lid system was designed to interface precisely with custom PCB test fixtures and DUT carriers. Locating features and robust mounting allow for reliable device alignment while withstanding the mechanical loads from pneumatic clamping and thermal expansion.
 
 ---
 
 ## Challenges and Lessons Learned
 
-- Ensuring uniform contact pressure without excessive mechanical complexity
-- Designing compact fluid channels that maintain consistent flow distribution
-- Managing condensation risks during cold operation
-- Balancing system weight for ease of handling and operation
-
+- Designing pneumatic actuation for repeatable, uniform thermal contact
+- Managing fluid channel routing to maximize heat extraction while minimizing flow resistance
+- Preventing condensation on cold surfaces through positive-pressure dry air purging
+- Balancing system rigidity and ease of maintenance for rapid device swaps
