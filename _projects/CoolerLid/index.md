@@ -27,13 +27,14 @@ This project involved the development of a pneumatically actuated cooling lid de
 ## Skills Used
 
 <div class="skills-list">
-  <span class="skill">Pneumatic System Design</span>
-  <span class="skill">Fluid Dynamics</span>
-  <span class="skill">Thermal Management</span>
-  <span class="skill">Heat Transfer Design</span>
-  <span class="skill">Mechanical Assembly</span>
-  <span class="skill">Semiconductor Test Hardware</span>
+  <div class="skill">Pneumatic System Design</div>
+  <div class="skill">Fluid Dynamics</div>
+  <div class="skill">Thermal Management</div>
+  <div class="skill">Heat Transfer Design</div>
+  <div class="skill">Mechanical Assembly</div>
+  <div class="skill">Semiconductor Test Hardware</div>
 </div>
+
 
 ---
 
