@@ -71,6 +71,18 @@ The cooling loop connects to an external recirculating water chiller. Quick-conn
 
 ---
 
+## Purge Enclosure Design
+
+To prevent condensation during low-temperature operation, a custom purge box was developed to enclose the cooling lid and device area. 
+
+The purge enclosure consists of a rigid frame built from 3D-printed ABS brackets and clear, static-dissipative cast acrylic windows to allow easy visual inspection of the lid during operation, while minimizing static electricity buildup near sensitive electronics.
+
+Dry air is introduced into the sealed enclosure through quick-connect fittings, maintaining positive pressure and keeping relative humidity low. The design balances accessibility for device swaps with robust environmental sealing for extended test cycles at sub-ambient temperatures.
+
+<img src="/_projects/Coolerlid/CoolingLidPurge.JPG" alt="Purge Box Surrounding Cooling Lid" class="centered-image" />
+
+---
+
 ## Mechanical Integration
 
 The lid frame was designed to interface precisely with custom test boards and device carriers. Locating features and robust mounting allow for rapid device swaps while maintaining alignment and reliable sealing under pressure.
