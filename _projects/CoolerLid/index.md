@@ -1,82 +1,86 @@
 ---
 layout: post
-title: Cooling Lid
-description: "A sheet metal enclosure housing the full control system for TCU operation. The assembly integrates switching power supplies, amplifiers, PID controllers, and custom wire harnesses, with an onboard Arduino microcontroller enabling remote connectivity and software integration for multi-zone thermal control."
-card-image: /_projects/CoolerLid/CoolingLid.JPG
+title: Pneumatic Cooling Lid
+description: "A pneumatically actuated cooling lid designed for semiconductor device testing, utilizing a recirculating fluid loop to maintain controlled temperatures across the device's I/O region. This assembly enables consistent thermal contact and automated device engagement during cold-temperature tests."
+card-image: /_projects/Coolerlid/CoolingLid.JPG
 skills:
-  - Sheet Metal Enclosure Design
-  - Electrical Integration
-  - Wire Harness Design
-  - Power Distribution
-  - Sensor & Control Integration
-  - Prototyping & Assembly
+  - Pneumatic System Design
+  - Fluid Dynamics
+  - Thermal Management
+  - Heat Transfer Design
+  - Mechanical Assembly
+  - Semiconductor Test Hardware
 ---
 
-<img src="/_projects/CoolerLid/CoolingLid.JPG" alt="Cooling lid concept" class="centered-image" />
+# Pneumatic Cooling Lid Assembly
 
-### Table of Contents
+<img src="/_projects/Coolerlid/CoolingLid.JPG" alt="Pneumatic Cooling Lid" class="centered-image" />
+
+---
+
+## Project Overview
+
+This project involved the development of a pneumatically actuated cooling lid designed to thermally manage the I/O zone of high-power semiconductor devices during benchtop validation and reliability testing. The lid integrates a recirculating water chiller loop to maintain stable, low device temperatures during power cycling or high heat generation scenarios.
+
+---
+
+## Skills Used
+
+<div class="skills-list">
+  <span class="skill">Pneumatic System Design</span>
+  <span class="skill">Fluid Dynamics</span>
+  <span class="skill">Thermal Management</span>
+  <span class="skill">Heat Transfer Design</span>
+  <span class="skill">Mechanical Assembly</span>
+  <span class="skill">Semiconductor Test Hardware</span>
+</div>
+
+---
+
+## Table of Contents
 - [Project Purpose](#project-purpose)
-- [Sheet Metal Enclosure Design](#sheet-metal-enclosure-design)
-- [Power Distribution Architecture](#power-distribution-architecture)
-- [Wire Harness and Cable Routing](#wire-harness-and-cable-routing)
-- [Controller Electronics Integration](#controller-electronics-integration)
-- [Remote Operation and Arduino Integration](#remote-operation-and-arduino-integration)
-- [Assembly and Prototyping](#assembly-and-prototyping)
+- [Thermal Architecture](#thermal-architecture)
+- [Pneumatic Actuation Design](#pneumatic-actuation-design)
+- [Fluid Loop Cooling System](#fluid-loop-cooling-system)
+- [Mechanical Integration](#mechanical-integration)
 - [Challenges and Lessons Learned](#challenges-and-lessons-learned)
 
 ---
 
-### Project Purpose
+## Project Purpose
 
-This controller was designed to operate multi-zone temperature control units (TCUs) for semiconductor device testing. It provides clean power distribution, thermal control, and remote operability in a compact, ruggedized enclosure suitable for benchtop use. Contains serial connectivity to water chillers as a safety shutoff in case TCU heat exchanger overheats (RTD sensor) and to PC for software program. 
-
----
-
-### Sheet Metal Enclosure Design
-
-The enclosure was modeled for efficient CNC sheet metal fabrication, with attention to airflow, cable passthroughs, and modular component mounting. Panels were designed for easy access during assembly and servicing, while maintaining a clean external appearance.
+The lid assembly was developed to automate device clamping and thermal control for devices undergoing high-power functional validation. Pneumatic actuation simplifies device engagement while ensuring high, repeatable contact forces, and the integrated fluid cooling maintains I/O zone temperatures within specification even during extended operation.
 
 ---
 
-### Power Distribution Architecture
+## Thermal Architecture
 
-The internal layout supports two switching power supplies feeding multiple subsystems including TEC drivers, PID controllers, and auxiliary components such as RTD sensors. Heatsinks and active cooling fans were incorporated for thermal management of high-power components. Contains a 12V relay for powering PCB auxiliary components.
-
----
-
-### Wire Harness and Cable Routing
-
-Custom wire harnesses were designed and fabricated to interconnect all internal systems. Connectors were selected for reliability and serviceability, and cable routing was optimized to prevent interference, reduce noise, and enable clean separation of power and signal lines. All wires were secured with cable ties to designed mounting slots on machined frames.
-
-<img src="/_projects/controller/PurpleBoard.jpg" 
-     alt="Wire harness and cable routing in TCU Controller" 
-     class="centered-image" 
-     style="max-height: 500px; width: auto; transform: rotate(90deg);" />
+The cooling system targets the outer I/O region of the device under test. Recirculated chilled fluid flows through embedded channels in the lid base, absorbing heat from the device and maintaining surface temperatures well below ambient. The design ensures minimal thermal gradients across the cooling surface.
 
 ---
 
-### Controller Electronics Integration
+## Pneumatic Actuation Design
 
-The enclosure integrates dual PID controllers for independent zone regulation, with modular output wiring to drive TECs and sensors. Terminal blocks and distribution boards allow for flexible reconfiguration depending on system requirements.
-
----
-
-### Remote Operation and Arduino Integration
-
-An onboard Arduino microcontroller enables remote command and monitoring capabilities, interfacing with external software for automated control of temperature setpoints, system monitoring, and safety interlocks.
+Two vertical pneumatic cylinders provide downward actuation force, pressing the lid evenly onto the device surface. This ensures uniform thermal contact and eliminates the variability of manual setups. Integrated return springs aid in quick device release.
 
 ---
 
-### Assembly and Prototyping
+## Fluid Loop Cooling System
 
-Prototyping involved CNC-machining, hand-wiring, and iterative fit checks to validate component placement and serviceability. Final assembly required integration of power electronics, control systems, and thermal management hardware.
+The cooling loop connects to an external recirculating water chiller. Quick-connect fittings enable easy maintenance and setup, while internal passages in the aluminum lid ensure even fluid distribution and maximize heat extraction efficiency.
 
 ---
 
-### Challenges and Lessons Learned
+## Mechanical Integration
 
-- Managing heat buildup in a compact, enclosed system  
-- Designing clean and serviceable wire routing within tight space constraints  
-- Balancing modularity and system robustness for field use  
-- Integrating custom control logic while maintaining electrical safety standards
+The lid frame was designed to interface precisely with custom test boards and device carriers. Locating features and robust mounting allow for rapid device swaps while maintaining alignment and reliable sealing under pressure.
+
+---
+
+## Challenges and Lessons Learned
+
+- Ensuring uniform contact pressure without excessive mechanical complexity
+- Designing compact fluid channels that maintain consistent flow distribution
+- Managing condensation risks during cold operation
+- Balancing system weight for ease of handling and operation
 
