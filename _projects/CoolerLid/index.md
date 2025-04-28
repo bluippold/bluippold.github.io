@@ -2,7 +2,7 @@
 layout: post
 title: Pneumatic Cooling Lid
 description: "A pneumatically actuated cooling lid designed for semiconductor device testing, utilizing a recirculating fluid loop to maintain controlled temperatures across the device's I/O region. This assembly enables consistent thermal contact and automated device engagement during cold-temperature tests."
-card-image: /_projects/Coolerlid/CoolingLid.JPG
+card-image: /_projects/CoolerLid/CoolingLid.JPG
 skills:
   - Pneumatic System Design
   - Fluid Dynamics
@@ -14,7 +14,7 @@ skills:
 
 # Pneumatic Cooling Lid Assembly
 
-<img src="/_projects/Coolerlid/CoolingLid.JPG" alt="Pneumatic Cooling Lid" class="centered-image" />
+<img src="/_projects/CoolerLid/CoolingLid.JPG" alt="Pneumatic Cooling Lid" class="centered-image" />
 
 ---
 
@@ -79,7 +79,7 @@ The purge enclosure consists of a rigid frame built from 3D-printed ABS brackets
 
 Dry air is introduced into the sealed enclosure through quick-connect fittings, maintaining positive pressure and keeping relative humidity low. The design balances accessibility for device swaps with robust environmental sealing for extended test cycles at sub-ambient temperatures.
 
-<img src="/_projects/Coolerlid/CoolingLidPurge.JPG" alt="Purge Box Surrounding Cooling Lid" class="centered-image" />
+<img src="/_projects/CoolerLid/CoolingLidPurge.JPG" alt="Purge Box Surrounding Cooling Lid" class="centered-image" />
 
 ---
 
