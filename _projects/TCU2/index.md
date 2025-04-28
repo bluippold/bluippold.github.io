@@ -53,6 +53,11 @@ The thermal head is machined for minimal footprint, integrating internal heat sp
 
 Each zone utilizes a thermoelectric cooler (TEC) for active heating and cooling, paired with RTDs for real-time feedback. TECs are bonded to the heat spreader surfaces, while RTD placement is optimized for accurate surface temperature measurement near the device contact interface. The paired controller records all RTD readings and operates off the highest temperature one. 
 
+<img src="/_projects/TCU2/TCU2Right.JPG" 
+     alt="Side cross-section view of thermal head" 
+     class="centered-image" 
+     style="max-height: 500px; width: auto; transform: rotate(90deg);" />
+
 ---
 
 ### Mechanical Assembly and Interface
