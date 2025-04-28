@@ -3,6 +3,7 @@ layout: post
 title: Custom TCU Controller
 description: "A sheet metal enclosure housing the full control system for TCU operation. The assembly integrates switching power supplies, amplifiers, PID controllers, and custom wire harnesses, with an onboard Arduino microcontroller enabling remote connectivity and software integration for multi-zone thermal control."
 main-image: /_projects/controller/Controller.JPG
+card-image: /_projects/controller/Controller2.JPG
 skills:
   - Sheet Metal Enclosure Design
   - Electrical Integration
