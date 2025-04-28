@@ -14,19 +14,6 @@ skills:
 
 <img src="/_projects/controller/Controller2.JPG" alt="Custom TCU Controller" class="centered-image" />
 
-A sheet metal enclosure housing the full control system for TCU operation. The assembly integrates switching power supplies, amplifiers, PID controllers, and custom wire harnesses, with an onboard Arduino microcontroller enabling remote connectivity and software integration for multi-zone thermal control.
-
-## Skills Used
-
-<span class="skill">Sheet Metal Enclosure Design</span>
-<span class="skill">Electrical Integration</span>
-<span class="skill">Wire Harness Design</span>
-<span class="skill">Power Distribution</span>
-<span class="skill">Sensor & Control Integration</span>
-<span class="skill">Prototyping & Assembly</span>
-
-# Custom TCU Controller
-
 ### Table of Contents
 - [Project Purpose](#project-purpose)
 - [Sheet Metal Enclosure Design](#sheet-metal-enclosure-design)
