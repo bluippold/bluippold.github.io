@@ -1,69 +1,109 @@
 ---
 layout: post
 title: Screw-Down Liquid-Cooled Lid
-description: "A mechanically secured thermal lid for semiconductor testing, featuring two independently cooled zones controlled via a recirculating water chiller for precise, isolated temperature management."
-skills: 
-- Mechanical Design (Springs, Static FEA)
-- Cold Plate Design (FEA, CFD)
-- Manufacturing Processes (Welding, Machining)
-- Tolerance Stackup
-- Machine Drawings with GD&T
+description: "A mechanically secured dual-zone thermal lid designed for semiconductor validation, featuring two independently cooled regions managed via a recirculating water chiller. Enables precise thermal control for partially-lidded LGA packages under varying power loads."
+card-image: /_projects/productionLid/ProductionLid.JPG
+skills:
+  - Mechanical Design (Springs, Static FEA)
+  - Cold Plate Design (FEA, CFD)
+  - Manufacturing Processes (Welding, Machining)
+  - Tolerance Stackup
+  - Machine Drawings with GD&T
 ---
 
-<img src="/projects/productionLid/ProductionLid.JPG" alt="Dual-zone screw-down lid render" width="700" style="display: block; margin: 1.5rem auto; border: 1px solid #ccc; border-radius: 6px;" />
+# Screw-Down Liquid-Cooled Lid
 
-### Table of Contents
+<img src="/_projects/productionLid/ProductionLid.JPG" alt="Dual-zone Screw-Down Lid" class="centered-image" />
+
+---
+
+## Project Overview
+
+This project involved the development of a mechanically secured dual-zone thermal lid designed for high-power semiconductor device validation. Each zone, corresponding to the CPU and I/O regions of partially-lidded LGA packages, is independently cooled through dedicated internal water channels connected to a recirculating chiller.
+
+The lid enables stable, isolated thermal control across the device under varying power loads while minimizing mechanical stress through precision fastening.
+
+---
+
+## Skills Used
+
+<div class="skills-list">
+  <div class="skill">Mechanical Design (Springs, Static FEA)</div>
+  <div class="skill">Cold Plate Design (FEA, CFD)</div>
+  <div class="skill">Manufacturing Processes (Welding, Machining)</div>
+  <div class="skill">Tolerance Stackup</div>
+  <div class="skill">Machine Drawings with GD&T</div>
+</div>
+
+---
+
+## Table of Contents
 - [Design Intent and Use Case](#design-intent-and-use-case)
 - [Mechanical Fastening Approach](#mechanical-fastening-approach)
 - [Thermal Architecture](#thermal-architecture)
 - [Water Channel Design](#water-channel-design)
 - [Simulation and Testing](#simulation-and-testing)
 - [Assembly and DFM Considerations](#assembly-and-dfm-considerations)
-- [Challenges and Learnings](#challenges-and-learnings)
+- [Challenges and Lessons Learned](#challenges-and-lessons-learned)
 
 ---
 
-### Design Intent and Use Case
+## Design Intent and Use Case
 
-Developed for partially-lidded LGA packages requiring independent thermal control over both regions (CPU and I/O). Using a recirculating water chiller, the user can set an inlet temperature and flow rate to achieve their desired operating temperature on the package under different power loads. 
-
----
-
-### Mechanical Fastening Approach
-
-There are eight total load cells: four outer load cells to mount the lid to the socket housing and four inner load cells that act as springs between both zone surfaces for when the middle zone contacts the exposed CPU die. 
+The lid was developed to address thermal management challenges for partially-lidded LGA packages. It allows independent temperature control of both the central CPU region and the surrounding I/O area by setting inlet fluid temperature and flow rate via a recirculating water chiller.
 
 ---
 
-### Thermal Architecture
+## Mechanical Fastening Approach
 
-The lid is divided into two thermally independent zones: a central CPU zone and an outer I/O zone. The CPU zone is designed to handle power loads up to 350W, while the surrounding I/O zone supports up to 180W. Each zone contains an independent fluid channel, acting as two separate cold plates.
+Eight mechanical load points are utilized:
+- Four outer fastening points anchor the lid to the socket housing.
+- Four inner load cells (spring-loaded) provide compliant force between the CPU die and the middle thermal zone surface.
 
----
-
-### Water Channel Design
-
-Custom internal water channels are CNC-machined into the body of the lid, optimized for flow uniformity and minimal pressure drop. The I/O fluid block is fastened via screws to the I/O pedestal and an O-ring is used to seal this channel. The CPU fluid block is welded to the CPU pedestal containing the water channels. Both zones have quick disconnect fittings at the inlet and outlet for easy removal and insertion. 
+This approach ensures consistent, repeatable compression without over-constraining sensitive components.
 
 ---
 
-### Simulation and Testing
+## Thermal Architecture
 
-I conducted steady-state FEA and CFD simulations in ANSYS Icepak to optimize the thermal performance of this product and to validate temperature gradients. Pressure drop analysis was also conducted to verify flow efficiency. On-bench testing confirmed thermal isolation and uniformity across zones, and I co-presented these findings at TestConX 2024. 
+The lid is thermally divided into two zones:
+- **CPU Zone**: Central region designed to dissipate up to 350 W of heat.
+- **I/O Zone**: Peripheral region capable of handling up to 180 W.
 
----
-
-### Assembly and DFM Considerations
-
-The lid was designed for machinability and modular assembly, using off-the-shelf fasteners and standard seals. Mounting geometry was kept compatible with a variety of socket housings and PCB stackups.
+Each zone operates independently with its own cooling loop, maintaining strict temperature isolation and uniformity during device operation.
 
 ---
 
-### Challenges and Learnings
+## Water Channel Design
 
-- Reaching high temperatures with the use of a chiller put significant strain on it, designing similar product that uses a polymide heater to help  
-- Avoiding over-constraining contact points while maintaining seal integrity  
-- Designing flexible cooling loops to fit varying bench configurations
-- In cold temperature testing, the top lid surfaces experience condensation; designed a modular purge kit that fits on top of the lid
+Custom CNC-machined internal water channels optimize flow uniformity and minimize pressure drop. Key features:
+- The I/O cooling block is fastened with screws and sealed via an O-ring interface.
+- The CPU cooling block is welded directly to the CPU pedestal for higher thermal efficiency.
+- Quick-disconnect fittings are installed for easy fluid line connection and maintenance.
 
 ---
+
+## Simulation and Testing
+
+Steady-state thermal and flow simulations (FEA and CFD) were conducted in ANSYS Icepak to validate heat extraction capability and minimize temperature gradients.  
+Pressure drop analyses confirmed flow efficiency.  
+Bench testing validated the thermal isolation between zones and system robustness.  
+Findings were co-presented at **TestConX 2024**.
+
+---
+
+## Assembly and DFM Considerations
+
+Designed for ease of manufacture and serviceability:
+- Standard fasteners and sealing components were used where possible.
+- Modular cooling blocks and standard socket compatibility ensured the design could adapt to multiple DUT setups and test benches.
+- Special attention was given to weld quality and machined surface tolerances to guarantee thermal and mechanical reliability.
+
+---
+
+## Challenges and Lessons Learned
+
+- Managing chiller capacity limits while reaching high operating temperatures (led to exploration of supplemental polyimide heater assist designs)
+- Avoiding over-constraint of thermal contact while maintaining robust sealing
+- Designing flexible, modular cooling loops to accommodate varying customer bench configurations
+- Managing condensation during cold testing, prompting a modular purge kit development to maintain dry conditions
