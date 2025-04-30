@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Pneumatic Gantry Test System
+title: Gantry Test System
 description: "A pneumatic benchtop fixture designed to reposition a heatpipe-based thermal lid over test boards, with custom adapter plates for alignment across varying board stackups and orientations."
 card-image: /_projects/Gantry/Gantry.JPG
 skills:
