@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Kapton-Heated Lid Assembly
+title: Heater Lid
 description: "A semi-passive thermal lid that uses a Kapton heater mounted to an insulated heatsink to elevate and control temperature across the I/O zone of a semiconductor package. A central fan provides convective cooling over the CPU region for thermal partitioning."
 card-image: /_projects/HeaterLid/HeaterLid.JPG
 skills:
