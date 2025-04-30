@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Pneumatic Cooling Lid Assembly
+title: Cooling Lid
 description: "A pneumatically actuated cooling lid designed for semiconductor device testing, utilizing a recirculating fluid loop to maintain controlled temperatures across the device's I/O region. This assembly enables consistent thermal contact and automated device engagement during thermal cycling tests."
 card-image: /_projects/CoolerLid/CoolingLid.JPG
 skills:
