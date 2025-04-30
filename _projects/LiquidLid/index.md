@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Spring-Loaded Liquid-Cooled Lid
+title: Liquid-Cooled Lid
 description: "A compact, benchtop thermal lid for semiconductor testing, utilizing a lever-actuated spring mechanism to apply pressure on a 600W device through a liquid-cooled cold plate for high-power thermal regulation."
 card-image: /_projects/LiquidLid/8281LiquidLid.JPG
 skills:
