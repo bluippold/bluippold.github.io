@@ -3,19 +3,7 @@ layout: wrapper
 ---
 
 <div class="post-view">
-
-        {%- comment -%}
-        {% assign folder_path = page.path | split: "/" | slice: 0, 2 | join: "/" %}
-        {% assign image_path = "/" | append: folder_path | append: page['main-image'] %}
-        <img src="{{ image_path }}" alt="{{ page.title }} image">
-        {%- endcomment -%}
-
-        <!-- No automatic title, image, description rendering here -->
-        <!-- You will control all Title, Image, Overview, Skills manually inside each project page -->
-
-    </div>
-
-    <div class="content">
-        {{ content }}
-    </div>
+  <div class="content">
+    {{ content }}
+  </div>
 </div>
