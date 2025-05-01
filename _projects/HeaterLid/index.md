@@ -12,7 +12,7 @@ skills:
   - Semiconductor Validation Hardware
 ---
 
-# Kapton-Heated Lid Assembly
+# Heater Lid
 
 <img src="/_projects/HeaterLid/HeaterLid.JPG" alt="Kapton-Heated Lid Assembly" class="centered-image" />
 
@@ -21,8 +21,6 @@ skills:
 ## Project Overview
 
 This project involved the development of a thermally partitioned lid for benchtop semiconductor validation. The outer I/O zone is actively heated via a Kapton heater mounted to a thermally isolated heatsink, while a central fan helps cool the CPU zone passively by forced convection. This design enables controlled heating of the I/O region during system testing while maintaining cooler CPU temperatures for thermal separation and performance profiling.
-
-An external controller governs heater power input, using an RTD sensor to provide real-time temperature feedback for closed-loop thermal control. The lid ensures safe operation by isolating heated surfaces from the upper housing using machined insulating layers.
 
 ---
 
@@ -53,6 +51,8 @@ An external controller governs heater power input, using an RTD sensor to provid
 ## Design Purpose
 
 This lid was developed to thermally stress the I/O zone of semiconductor devices during temperature-controlled testing, while avoiding unnecessary thermal loading on the CPU region. The design allows selective thermal input and rapid prototyping for system-level evaluations.
+
+An external controller governs heater power input, using an RTD sensor to provide real-time temperature feedback for closed-loop thermal control. The lid ensures safe operation by isolating heated surfaces from the upper housing using machined insulating layers.
 
 ---
 
