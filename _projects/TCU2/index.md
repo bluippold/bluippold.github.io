@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Five-Zone TCU
+title: Five-zone TCU
 description: "Compact multi-zone thermal control unit for semiconductor device testing, featuring independent TEC-driven zones for ASIC and DDR regions."
 card-image: /_projects/TCU2/TCU2ALTERED.JPG
 skills:
